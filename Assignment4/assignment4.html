@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--Created by-Deepa K -->
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Continuing Education Forms</title>
+<meta content="HTMLforms" name="keywords">
+<meta content="Continuing education forms" name="description">
+<link href="assignment4.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="Page">
+        <header>
+            <a href="https://www.centennialcollege.ca/"><img src="images/centennialCollegeLogo.jpg" alt="Centennial Logo" height="200" width="980"></a>
+            <nav><a href="../index.html">Home</a></nav>
+            <h1 id="heading">Centennial College <br> Continuing Education Course/Instructor Evaluation Forms</h1>
+        </header>
+        <main>
+        <p><b>Please read each statement carefully and consider each one individually.Give only one answer for each question.</b></p> 
+        <form action="mailto:continuingeducation@centennialcollege.ca" method="post">
+            <table style="width: 100%">
+                    <tr>
+                        <td class="Info">Course Name/Code:</td>
+                        <td> 
+                <select name="Courses" multiple="multiple" size="4" tabindex="1">
+                <option value="COMP100">COMP100 Programming I</option>
+                <option value="COMP125">COMP125 Client Side Development</option>
+                <option value="COMP213">COMP213 Web Interface Design</option>
+                <option value="COMP225">COMP225 Systems I</option>
+                <option value="COMP229">COMP229 Server Side Development</option>
+                <option value="COMP120">COMP120 Software Engineering</option>
+                </select></td>
+                    </tr>                                  
+                <tr>
+                    <td class="Info">Semester:</td>
+                    <td><input id="txtSem" name="optSemester" tabindex="2" type="radio" value="Fall">Fall
+                        <input name="optSemester" tabindex="3" type="radio" value="Winter">Winter
+                        <input name="optSemester" tabindex="4" type="radio" value="Spring/Summer">Spring/Summer                      
+                    </td>                  
+                </tr>
+                <tr>
+                    <td class="Info">Year:</td>                   
+                    <td><input id="txtYName" name="txtYearName" size="25" tabindex="5" type="text"></td> 
+                </tr>
+                <tr>
+                    <td class="Info">Instructor:</td>                   
+                    <td><input id="txtInstName" name="InstructorName" size="25" tabindex="6" type="text"></td> 
+                </tr>
+                </table>
+                <table style="width: 100%" id="bottomtable">
+                <tr>
+                    <td class="FieldName"><h2><b>Instructor</b></h2></td>
+                </tr>
+                <tr><td class="FieldName">How would you rate the instructor's:</td></tr>
+           
+                <tr><td class="FieldName">1.<b>knowledge</b> of subject?</td></tr>
+                <tr><td class="FieldName"><input id="txtknwS" name="optKnowkledgeOfSubject" tabindex="7" type="radio" value="Excellent">Excellent
+                    <input name="optKnowkledgeOfSubject" tabindex="8" type="radio" value="Good">Good
+                    <input name="optKnowkledgeOfSubject" tabindex="9" type="radio" value="Fair">Fair
+                    <input name="optKnowkledgeOfSubject" tabindex="10" type="radio" value=" NotSatisfactory">Not Satisfactory
+                 </td></tr>
+
+                 
+                 <tr><td class="FieldName">2.<b>helpfullness?</b></td></tr>
+                
+                 <tr><td class="FieldName"><input id="txtValue" name="helpfullness" tabindex="11" type="radio" value="Excellent">Excellent
+                     <input  name="helpfullness" tabindex="12" type="radio" value="Good">Good
+                     <input  name="helpfullness" tabindex="13" type="radio" value="Fair">Fair
+                     <input  name="helpfullness" tabindex="14" type="radio" value="NotSatisfactory">Not Satisfactory
+                  </td></tr>
+             
+                  <tr><td class="FieldName">3.<b>courtesy and respect</b> for all students?</td></tr>
+                 
+                  <tr><td class="FieldName"><input id="txtCR" name="courtesyAndRespect" tabindex="15" type="radio" value="Excellent">Excellent
+                      <input  name="courtesyAndRespect" tabindex="16" type="radio" value="Good">Good
+                      <input name="courtesyAndRespect" tabindex="17" type="radio" value="Fair">Fair
+                      <input name="courtesyAndRespect" tabindex="18" type="radio" value="NotSatisfactory">Not Satisfactory
+                   </td></tr>
+
+                   <tr><td class="FieldName">4.<b>communication</b> skills?</td></tr>
+                  
+                  <tr><td class="FieldName"><input id="txtComm" name="communicationSkills" tabindex="19" type="radio" value="Excellent">Excellent
+                      <input name="communicationSkills" tabindex="20" type="radio" value="Good">Good
+                      <input name="communicationSkills" tabindex="21" type="radio" value="Fair">Fair
+                      <input name="communicationSkills" tabindex="22" type="radio" value="NotSatisfactory">Not Satisfactory
+                   </td></tr>
+
+                   <tr><td class="FieldName">5.overall<b> performance?</b></td></tr>
+                  <tr><td class="FieldName"><input id="txtPerf" name="overallPerformance" tabindex="23" type="radio" value="Excellent">Excellent
+                      <input name="overallPerformance" tabindex="24" type="radio" value="Good">Good
+                      <input  name="overallPerformance" tabindex="25" type="radio" value="Fair">Fair
+                      <input name="overallPerformance" tabindex="26" type="radio" value="NotSatisfactory">Not Satisfactory
+                   </td></tr>
+
+                   <tr><td class="FieldName"><h2><b>Course</b></h2></td></tr>
+
+                   <tr><td class="FieldName">6.How would you rate the <b>course materials?</b></td></tr>
+                   <tr><td class="FieldName"><input id="txtCM" name="courseMaterials" tabindex="27" type="radio" value="Excellent">Excellent
+                       <input name="courseMaterials" tabindex="28" type="radio" value="Good">Good
+                       <input name="courseMaterials" tabindex="29" type="radio" value="Fair">Fair
+                       <input name="courseMaterials" tabindex="30" type="radio" value=" NotSatisfactory">Not Satisfactory
+                    </td></tr>
+                   
+                    <tr><td class="FieldName">7.How much did this course meet your <b>expectations?</b></td></tr>
+                    <tr><td class="FieldName"><input id="txtExpec" name="CourseExpectations" tabindex="31" type="radio" value="Excellent">Excellent
+                        <input name="CourseExpectations" tabindex="32" type="radio" value="Good">Good
+                        <input name="CourseExpectations" tabindex="33" type="radio" value="Fair">Fair
+                        <input name="CourseExpectations" tabindex="34" type="radio" value=" NotSatisfactory">Not Satisfactory
+                     </td></tr>
+                   
+                     <tr><td class="FieldName">8.How would you rate this course  <b>(overall)?</b></td></tr>
+                    <tr><td class="FieldName"><input id="txtRate" name="OverallRating" tabindex="35" type="radio" value="Excellent">Excellent
+                        <input name="OverallRating" tabindex="36" type="radio" value="Good">Good
+                        <input name="OverallRating" tabindex="37" type="radio" value="Fair">Fair
+                        <input name="OverallRating" tabindex="38" type="radio" value=" NotSatisfactory">Not Satisfactory
+                     </td></tr>
+
+                     <tr><td class="FieldName"><h2><b>General Information</b></h2></td></tr>
+                     <tr><td class="FieldName">9.Was the <b>course outline</b> reviewed/explained at the beginning of your course?  <b>(overall)?</b></td></tr>
+                    <tr><td class="FieldName"><input id="txtGenInf" name="CourseOutlineReview" tabindex="39" type="radio" value="Yes">Yes
+                        <input name="CourseOutlineReview" tabindex="40" type="radio" value="No">No
+                        <input name="CourseOutlineReview" tabindex="41" type="radio" value="Not Sure">Not Sure                      
+                     </td></tr>
+                    
+                     <tr><td class="FieldName">10.Would you<b> recommend </b>this course to a friend with the same interests ?</td></tr>
+                     <tr><td class="FieldName"><input id="txtRec" name="recommend" tabindex="42" type="radio" value="Yes">Yes
+                         <input name="recommend" tabindex="43" type="radio" value="No">No
+                         <input name="recommend" tabindex="44" type="radio" value="Not Sure">Not Sure                      
+                      </td></tr>
+                      <tr><td class="FieldName"><h2><b>Any other comments</b></h2></td></tr>
+                      <tr><td class="FieldName">11.What is the best thing about this course? <b>Expectations?</b></td></tr>
+                      <tr><td class="FieldName"><textarea cols="50" name="txtbestThingCourse" rows="4" tabindex="45">--Please let us know about any special needs you may have ( e.g assisted typing, closed captioning,etc)</textarea></td></tr>
+
+                    <tr><td class="FieldName">12.How could we<b> improve</b> this course?</td></tr>
+                    <tr><td class="FieldName"><textarea cols="50" name="txtimproveCourse" rows="4" tabindex="46">--Please let us know about any special needs you may have ( e.g assisted typing, closed captioning,etc)</textarea></td></tr>
+
+                     <tr><td class="FieldName">13.Other:</td></tr>
+                    <tr><td class="FieldName"><textarea cols="50" name="txtimproveCourse" rows="7" tabindex="47">--Please let us know about any special needs you may have ( e.g assisted typing, closed captioning,etc)</textarea></td></tr>
+                    <tr>                                 
+                    <td class="FieldName"><input name="btnSubmit" tabindex="48" type="submit" value="Submit" id="submitBtn">
+                    <input name="btnReset" tabindex="49" type="reset" value="Reset"></td>
+                </tr>
+                    </table>
+        </form> 
+        </main>
+        <footer class="FieldName" >
+            <p>Thank You! We pay attention to your feedback!</p>
+            <p>Web: <a href="https://centennialcollege.ca/continuingeducation" >wwww.centennialcollege.ca/continuingeducation</a>&nbsp;&nbsp;   
+                 <a href="mailto:continuingeducation@centennialcollege.ca">Email:continuingeducation@centennialcollege.ca</a></p>
+
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+

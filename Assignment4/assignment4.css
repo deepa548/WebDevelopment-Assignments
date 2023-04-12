@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/centennialBuilding1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Page{
+    width: 980px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#c7ce00;
+    color:black;
+    border-radius:15px;
+    opacity:0.90;
+    padding: 40px;
+    box-shadow:3px 3px 3px black;
+    
+}
+h2{
+    background-color:#9D9D93;
+    box-shadow:3px 3px 3px #c7ce00 inset;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#heading{
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #c7ce00 inset;
+	background-color: black;
+	background-image: url('images/centennialSmallLogo.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow:0 0 4px #c7ce00;
+    text-align: center;
+}
+.FieldName{
+	vertical-align: top;
+    font-size: medium;
+    text-align: center;
+	
+}
+
+#bottomtable{
+    text-align: center;
+}
+.Info{
+padding-left: 50px;
+  text-align: right;
+}
+nav{
+    float:right;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+}
+a:hover{
+    color:blue
+}
+
